@@ -64,6 +64,7 @@ header{
 .h3-job {
     color: #0475ba;
     margin: 0;
+    font-size: 1.5vmax;
 }
 .aside-img{
     padding-bottom: 5vmax;
@@ -80,7 +81,17 @@ img{
     img{
         margin: 0;
     }
-
+}
+@media screen and (max-width: 600px) {
+    .h3-job {
+        font-size: 2.5vmax;
+    }
+    h1 {
+        font-size: 3vmax;
+    }
+    img {
+        width: 100px;
+    }
 }
 
 
@@ -123,10 +134,7 @@ img{
 
 .h2-f{
     padding: 3vmax 0 2vmax 0;
-<<<<<<< HEAD
-    
-=======
->>>>>>> eacd18fae7490c41272ba89143f26d546f5fe165
+    color: #0475ba;
 }
 .link1, .link2{
     padding: 4vmax;
