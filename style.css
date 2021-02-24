@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("./fonts/poppins.ttf") format('ttf');
+}
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+.secondary-block {
+    background-color: #0475ba;
+    color: white;
+}
+.info {
+    text-align: center;
+}
+h1 {
+    font-size: 2vmax;
+}
+h2{
+    font-size: 1.5vmax;
+}
+
+header{
+    display: flex;
+}
+
+.h1-header {
+    margin: 2vmax 1vmax;
+    
+}
+
+@media screen and (max-width: 450px) {
+    .nav-header{
+        display: none;
+    }
+}
+.ul-header {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 2.8vmax 0;
+}
+.a-header{
+    text-decoration: none;
+    margin: 1vmax;
+    color: white;
+    font-size: 1.3vmax;
+    padding: 5%;
+}
+.a-header:hover {
+    background-color: rgb(145, 143, 143);
+}
+
+.main-h {
+    float: left;
+    width: 40%;
+    padding: 5% 0% 5% 18%;
+}
+@media screen and (max-width: 1200px) {
+    .main-h{
+        width: 63%;
+    }
+
+}
+.h3-job {
+    color: #0475ba;
+    margin: 0;
+}
+.aside-img{
+    padding-bottom: 5vmax;
+}
+img{
+    margin: 5% 25% 0 0;
+    border-radius: 100px;
+    width: 150px;
+}
+@media screen and (max-width: 1200px) {
+    .aside-img{
+        margin: 3vmax;
+    }
+    img{
+        margin: 0;
+    }
+
+}
+
+
+.div-pré{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.h2-pré{
+    padding: 6% 0 1% 0;
+}
+.ul-pré {
+    padding-bottom: 10%;
+    font-size: 1.3vmax;
+}
+@media screen and (max-width: 1200px) {
+    .div-pré{
+        width: 100%;
+        text-align: center;
+    }
+    .ul-pré, .detail {
+        text-align: left;
+    }
+
+}
+
+
+.h2-xp{
+    color: #0475ba;
+    padding: 3vmax 0 2vmax 0;
+}
+.aside-xp{
+    display: inline-table;
+    float: right;
+}
+.detail{
+    font-size: 1vmax;
+    padding-bottom: 2vmax;
+}
+
+.h2-f{
+    padding: 3vmax 0 2vmax 0;
+    color: #0475ba;
+}
+.link1, .link2{
+    padding: 4vmax;
+    display: inline-block;
+    font-size: 1.3vmax;
+}
+.link2 {
+    padding-left: 15vmax;
+}
+.a-f{
+    color: white;
+    text-decoration: none;
+}
+.fas, .fab {
+    font-size: 2vmax;
+}
+@media screen and (max-width: 700px) {
+   .link1{
+    display: block;
+    padding: 5vmax 0 2vmax 4vmax;
+   }
+    .link2{
+        display: block;
+        padding: 0vmax 0 5vmax 4vmax
+
+    }
+
+}
+
